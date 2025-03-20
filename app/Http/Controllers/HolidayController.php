@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use App\Models\Holidays;
 use Illuminate\Http\Request;
 
@@ -72,8 +73,7 @@ class HolidayController extends Controller
         return view('admin.holidays', compact('holiday'));
     }
 
-    //////////////////////////////////////////////////////////////////////////////////////////////
-  
+    //////////////////////////////////////////////////////////////////////
 
     public function editJson($id)
     {
