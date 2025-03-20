@@ -17,15 +17,15 @@
                             <div class="text-md font-bold">{{ $total }}</div>
                         </div>
                         <div class="bg-orange-500 text-white rounded-lg p-2 shadow-sm">
-                            <div class="text-md font-semibold">Pending</div>
+                            <div class="text-md font-semibold">Pending Leaves</div>
                             <div class="text-md font-bold"> {{ $pendingapproval }}</div>
                         </div>
                         <div class="bg-green-500 text-white rounded-lg p-2 shadow-sm">
-                            <div class="text-md font-semibold">Approved</div>
+                            <div class="text-md font-semibold">Approved Leaves</div>
                             <div class="text-md font-bold">{{ $approved }}</div>
                         </div>
                         <div class="bg-red-500 text-white rounded-lg p-2 shadow-sm">
-                            <div class="text-md font-semibold">Declined</div>
+                            <div class="text-md font-semibold">Declined Leaves</div>
                             <div class="text-md font-bold">{{ $declined }}</div>
                         </div>
                     </div>
